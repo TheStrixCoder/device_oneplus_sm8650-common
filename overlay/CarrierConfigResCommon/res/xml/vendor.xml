@@ -6576,6 +6576,11 @@
         <string name="vendor_carrier_eons_short">TMO</string>
         <boolean name="use_only_rsrp_for_lte_signal_bar_bool" value="true" />
         <string name="wcdma_default_signal_strength_measurement_string">rscp</string>
+        <string name="5g_icon_configuration_string">connected_mmwave:5GUC,5GUWB,connected:5g,not_restricted:None,restricted:None</string>
+        <boolean name="carrier_config_vonr_state" value="true" />
+        <boolean name="carrier_config_vonr_visible" value="true" />
+        <boolean name="vonr_enabled_bool" value="true" />
+        <boolean name="vonr_setting_visibility_bool" value="true" />
         <boolean name="config_hide_vt_callforward_option" value="true" />
         <boolean name="editable_enhanced_4g_lte_bool" value="true" />
         <boolean name="config_oplus_show_5g_pref" value="true" />
@@ -6642,6 +6647,11 @@
         <boolean name="carrier_default_data_roaming_enabled_bool" value="true" />
         <int name="maxSubjectLength" value="80" />
         <string name="gps.lpp_profile">3</string>
+        <string name="5g_icon_configuration_string">connected_mmwave:5GUC,5GUWB,connected:5g,not_restricted:None,restricted:None</string>
+        <boolean name="carrier_config_vonr_state" value="true" />
+        <boolean name="carrier_config_vonr_visible" value="true" />
+        <boolean name="vonr_enabled_bool" value="true" />
+        <boolean name="vonr_setting_visibility_bool" value="true" />        
         <boolean name="allow_hold_in_ims_call" value="true" />
         <boolean name="convert_cdma_caller_id_mmi_codes_while_roaming_on_3gpp_bool" value="true" />
         <string-array name="carrier_metered_apn_types_strings" num="4">
