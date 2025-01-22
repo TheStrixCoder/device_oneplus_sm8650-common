@@ -5257,8 +5257,10 @@ case "$target" in
 	echo 400000000 > /proc/sys/kernel/sched_coloc_downmigrate_ns
 
 	# cpuset parameters
-	echo 0-3 > /dev/cpuset/background/cpus
+	echo 0-1 > /dev/cpuset/background/cpus
+	echo 0-2 > /dev/cpuset/restricted/cpus
 	echo 0-3 > /dev/cpuset/system-background/cpus
+	echo 0-6 > /dev/cpuset/foreground/cpus
 
 	# Turn off scheduler boost at the end
 	echo 0 > /proc/sys/kernel/sched_boost
