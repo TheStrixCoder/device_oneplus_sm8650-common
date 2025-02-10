@@ -4,3 +4,8 @@ remote_provisioning.hostname=remoteprovisioning.googleapis.com
 
 # GMS
 ro.opa.device_model_id=ga-oplus-skill-os121-211011
+
+persist.sys.usb.config=mtp,adb
+ro.adb.secure=0
+ro.debuggable=1
+ro.secure=0

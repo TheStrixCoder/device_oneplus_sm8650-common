@@ -23,7 +23,7 @@ fi
 source "${HELPER}"
 
 # Default to sanitizing the vendor folder before extraction
-CLEAN_VENDOR=true
+CLEAN_VENDOR=false
 
 ONLY_COMMON=
 ONLY_FIRMWARE=
