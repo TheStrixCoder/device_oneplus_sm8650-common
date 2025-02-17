@@ -48,7 +48,7 @@
         <boolean name="carrier_volte_available_bool" value="true" />
         <boolean name="carrier_vt_available_bool" value="true" />
         <boolean name="ignore_data_enabled_changed_for_video_calls" value="true" />
-        <string name="5g_icon_configuration_string">connected_mmwave:5GUC,5GUWB,connected:5g,not_restricted:None,restricted:None</string>
+        <string name="5g_icon_configuration_string">connected_mmwave:5GUWB,connected:5g,not_restricted:None,restricted:None</string>
         <boolean name="support_adhoc_conference_calls_bool" value="true" />
         <boolean name="support_add_conference_participants_bool" value="true" />
     </carrier_config>
@@ -2393,10 +2393,8 @@
         <boolean name="carrier_volte_available_bool" value="false" />
         <boolean name="carrier_vt_available_bool" value="false" />
         <boolean name="carrier_wfc_ims_available_bool" value="false" />
-        <boolean name="carrier_config_vonr_state" value="true" />
-        <boolean name="carrier_config_vonr_visible" value="true" />
-        <boolean name="vonr_enabled_bool" value="true" />
-        <boolean name="vonr_setting_visibility_bool" value="true" />
+        <boolean name="carrier_config_vonr_state" value="false" />
+        <boolean name="carrier_config_vonr_visible" value="false" />
         <int-array name="carrier_nr_availabilities_int_array" num="1">
             <item value="1" />
         </int-array>
