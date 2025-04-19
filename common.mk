@@ -55,7 +55,6 @@ PRODUCT_PACKAGES += \
     audio.bluetooth.default \
     audio.usb.default \
     audio.r_submix.default \
-    libagmmixer \
     libagm_compress_plugin \
     libagm_mixer_plugin \
     libagm_pcm_plugin \
