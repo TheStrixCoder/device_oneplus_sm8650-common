@@ -12,6 +12,9 @@ $(call inherit-product, hardware/qcom-caf/common/common.mk)
 # A/B
 $(call inherit-product, $(SRC_TARGET_DIR)/product/virtual_ab_ota/vabc_features.mk)
 
+#Viper4Fx
+$(call inherit-product, packages/apps/ViPER4AndroidFX/config.mk)
+
 AB_OTA_POSTINSTALL_CONFIG += \
     RUN_POSTINSTALL_system=true \
     POSTINSTALL_PATH_system=system/bin/otapreopt_script \
