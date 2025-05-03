@@ -45,4 +45,13 @@
     -->
     <integer name="config_vibration_supported_intensity_levels">3</integer>
 
+    <!-- Show battery information -->
+    <bool name="config_show_battery_info" translatable="false">true</bool>
+
+    <!-- Show battery cycle count -->
+    <bool name="config_show_battery_cycle_count" translatable="false">true</bool>
+
+    <!-- Show Battery Health -->
+    <bool name="config_supportBatteryHealth">true</bool>
+
 </resources>
